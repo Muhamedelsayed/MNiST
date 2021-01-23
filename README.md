@@ -15,8 +15,6 @@
   * [CrossEntropyLoss](#CrossEntropyLoss)
   * [MeanSquareLoss](#MeanSquareLoss)
 * [Activations](#Activations)
-*hello
-
 
 # Project's main topics 
 ## A simple example CNN
