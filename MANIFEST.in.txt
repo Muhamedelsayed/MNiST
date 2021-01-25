@@ -1,0 +1,13 @@
+include MoSeka/activations/*
+include MoSeka/Activation_util/*
+include MoSeka/Convolution_util/*
+include MoSeka/evaluation_matrix/*
+include MoSeka/functional/*
+include MoSeka/LayerObjects/*
+include MoSeka/layers/*
+include MoSeka/losses/*
+include MoSeka/net/*
+include MoSeka/Pooling_util/*
+include MoSeka/RBF_initial_weight/*
+include MoSeka/Utils/*
+include MoSeka/utils_func/*
