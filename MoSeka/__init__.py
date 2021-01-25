@@ -1,7 +1,7 @@
 from Utils import load_data
 from Utils import zero_pad
 from functional import *
-from layers import Function,Layer
+from layers import Function,Layer,Linear
 
 from activations import *
 from losses import Loss
