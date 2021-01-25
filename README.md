@@ -194,5 +194,8 @@ Currently, the following activation functions are implemented:
 2. [Marcel Wang's blog](http://hemingwang.blogspot.tw/search/label/_社團：技術：mAiLab)
 3. [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning)
 
+## Google Colab link
+https://drive.google.com/drive/folders/17QjBZU1oUIvDPUM2xiLpWLwEivX8saoS?usp=sharing
+
 
 
