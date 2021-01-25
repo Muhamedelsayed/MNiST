@@ -1,30 +1,23 @@
-from distutils.core import setup
+from setuptools import setup
+
+ 
+
+with open("README.md","r") as fh:
+    long_description = fh.read()
 setup(
-  name = 'MoSeka',         # How you named your package folder (MyLib)
-  packages = ['MoSeka'],   # Chose the same as "name"
-  version = '2.0',      # Start with a small number and increase it with every change you make
-  license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'Deep learning framework',   # Give a short description about your library
-  author = 'Mohamed elsayed',                   # Type in your name
-  author_email = 'mohamedelsayed16397@gmail.com',      # Type in your E-Mail
-  url = 'https://github.com/Muhamedelsayed/MNiST',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Muhamedelsayed/MNiST/archive/2.0.tar.gz',    # I explain this later on
-  keywords = ['Lenet5', 'Framework', 'MNIST'],   # Keywords that define your package best
-  install_requires=[            # I get to this in a second
-          'numpy',
-          'pandas',
-          'matplotlib',
-      ],
-  classifiers=[
-    'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
-    'Intended Audience :: Developers',      # Define that your audience are developers
-    'Topic :: Software Development :: Build Tools',
-    'License :: OSI Approved :: MIT License',   # Again, pick a license
-    'Programming Language :: Python :: 3',      #Specify which pyhton versions that you want to support
-    'Programming Language :: Python :: 3.4',
-    'Programming Language :: Python :: 3.5',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
-  ],
+    name = 'MoSeka',
+    version = '2.1',
+    description = 'Deep Learning Framework',
+    py_modules = ["activations","evaluation_matrix","functional","layers","losses","net","Utils","Activation_util","utils_func","Convolution_util","Pooling_util","RBF_initial_weight","LayerObjects"],
+    package_dir = {'':'MoSeka'},
+    install_requires = [
+        "matplotlib <= 3.1.3",
+        "pillow <= 8.0.1",
+        "numpy <= 1.17.5",
+        "pandas <= 0.25.1",
+    ],
+    long_description = long_description,
+    long_description_content_type = "text/markdown",
+    license="MIT",
+    url="https://github.com/Muhamedelsayed/MNiST",
 )
